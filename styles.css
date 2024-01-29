@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+body{
+  background-color: white;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 10%;
+  background-color: #D3D3D3;
+  border: 3px solid black;
+  border-radius: 20px;
+  height: 100px;
+  width: 60%;
+  gap: 10px;
+}
+
+.green{
+  border-radius: 50%;
+  height: 70%;
+  background-color: green;
+  width: 20%;
+}
+
+.yellow{
+  border-radius: 50%;
+  height: 70%;
+  background-color: yellow;
+  width: 20%;
+}
+
+.red{
+  border-radius: 50%;
+  height: 70%;
+  background-color: red;
+  width: 20%;
+}
